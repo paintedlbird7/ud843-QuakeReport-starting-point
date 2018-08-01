@@ -68,7 +68,7 @@ public class Earthquake {
      * Returns the date of the earthquake.
      */
     public String getDate() {
-        return mLocation;
+        return mDate;
     }
 
 //    public long getTimeInMilliseconds() {
