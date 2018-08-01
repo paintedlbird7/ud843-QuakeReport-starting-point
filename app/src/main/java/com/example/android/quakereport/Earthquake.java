@@ -22,8 +22,6 @@ public class Earthquake {
 
     /** Magnitude of the earthquake */
     private double mMagnitude;
-    
-    private String mDate;
 
     /** Location of the earthquake */
     private String mLocation;
@@ -34,57 +32,27 @@ public class Earthquake {
     /** Website URL of the earthquake */
     private String mUrl;
 
-    /**
-     * Constructs a new {@link Earthquake} object.
-     * @param url is the website URL to find more details about the earthquake
-     * @param date
-     */
-    public Earthquake(String location, String url, String date) {
-        double magnitude = 0;
-        mMagnitude = magnitude;
-        mLocation = location;
-        long timeInMilliseconds = 0;
-        mTimeInMilliseconds = timeInMilliseconds;
-        mDate = date;
-        mUrl = url;
+
+    public Earthquake(double mMagnitude, String mLocation, long mTimeInMilliseconds, String mUrl) {
+        this.mMagnitude = mMagnitude;
+        this.mLocation = mLocation;
+        this.mTimeInMilliseconds = mTimeInMilliseconds;
+        this.mUrl = mUrl;
     }
 
-    /**
-     * Returns the magnitude of the earthquake.
-     */
-    public int getMagnitude() {
-        return (int) mMagnitude;
+    public double getmMagnitude() {
+        return mMagnitude;
     }
 
-
-    /**
-     * Returns the location of the earthquake.
-     */
-    public String getLocation() {
+    public String getmLocation() {
         return mLocation;
     }
 
-    /**
-     * Returns the date of the earthquake.
-     */
-    public String getDate() {
-        return mDate;
+    public long getmTimeInMilliseconds() {
+        return mTimeInMilliseconds;
     }
 
-//    public long getTimeInMilliseconds() {
-//    }
-
-    /**
-     * Returns the time of the earthquake.
-     */
-   public long getTimeInMilliseconds() {
-        return mTimeInMilliseconds;
-   }
-
-    /**
-     * Returns the website URL to find more information about the earthquake.
-     */
-    public String getUrl() {
+    public String getmUrl() {
         return mUrl;
     }
 }
