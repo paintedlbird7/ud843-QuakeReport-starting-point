@@ -14,11 +14,18 @@
         tools:text="2.9" />
 
     <TextView
+        android:id="@+id/location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="San Jose, CA" />
+
+    <TextView
         android:id="@+id/date"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         tools:text="Mar 6, 2018" />
 
-    
+
 </LinearLayout>

@@ -22,4 +22,13 @@
 
     <!-- Accent color of the app -->
     <color name="colorAccent">#10CAC9</color>
+    <color name="magnitude1" />
+    <color name="magnitude3" />
+    <color name="magnitude4" />
+    <color name="magnitude5" />
+    <color name="magnitude6" />
+    <color name="magnitude7" />
+    <color name="magnitude8" />
+    <color name="magnitude9" />
+    <color name="magnitude10plus" />
 </resources>
